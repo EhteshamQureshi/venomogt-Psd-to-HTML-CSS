@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('assets/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Calibri, Helvetica, sans-serif;
+    width: 100vw;
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.bd{
+    /* border: 20px solid red; */
+}
+.c{
+    width: 80vw;
+    height: 80vh;
+    /* border: 2px solid white; */
+}
+header{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    color: #000;
+    /* border: 2px solid white; */
+    margin-bottom: 10px;
+}
+.logo-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21d873;
+    width: 6%;
+    border-radius: 10px 0px 00px 10px ;
+
+    /* height: 75px; */
+}
+.logo-class>img{
+    width:60%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 20%;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 2vw;
+    color: #9e9c9c;
+}
+.top-bar{
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.active-top-bar-div{
+    border-radius: 10px 0px 0px 10px;
+    background-color: red;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.active-top-bar-div>img{
+    position: relative;
+    right: 25%;
+        width: 10%;
+
+}
+
+    
+.last-div-top-bar>img{
+    position: relative;
+    left: 65%;
+    width: 10%;
+}
+.top-bar-div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9e9c9c;
+}
+.border-right{
+    border-right: 3px solid #bbbbbb;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+main{
+    width: 80vw;
+}
+.right-sidebar{
+    width: 20vw;
+    height: 61vh;
+        border-radius: 10px;
+        /* background-color: rgb(71, 71, 70); */
+        /* opacity: 0.541; */
+        /* position: absolute; */
+        /* border:2px solid #f7c104; */
+        background-color: #b6b6b6;
+        background-image: url('/assets/background-right-sidebar.png');
+
+}
+
+.v-h-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-right-sidebar{
+    /* width: 416px; */
+}
+.card-title{
+    border-radius: 10px 10px 0px 0px;
+    height: 65px;
+    color: white;
+    background: #21d873;
+    font-size: 1.3vw;
+}
+.company-logo{
+    height: 220px;
+}
+.car-name{
+    height: 40px;
+    background-color: #f7c104;
+    color: white;
+}
+.ft-25{
+    font-size: 1.3vw;
+}
+
+
+.rating{
+    height: 20vh;
+    /* background-color: grey; */
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.property{
+    display: flex;
+    justify-content: space-around;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
+.rating-title-1{
+    /* background-color: tomato; */
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ft-28{
+    font-size: 1.4vw;
+}
+.ft-30{
+    font-size: 1.5vw;
+}
+.bar{
+/* width: 100%; */
+}
+.mt-0{
+    margin-top: 0px;
+} 
+.mb-0{
+    margin-bottom: 0px;
+}
+.unfill{
+    height: .5vh;
+    width: 12vw;
+    background-color: #b6b6b6;
+    border-radius: 10px
+}
+.fill{
+    /* width: 200px; */
+    height: .5vh;
+    border-radius: 10px;
+    background-color:  white;
+}
+.rating-value{
+    width: 3vw;
+    height: 3.5vh;
+    border-radius: 10px;
+    background-color: white;
+    color: #b6b6b6;
+}
+.price{
+    height: 6vh;
+    width: 20vw;
+    background-color: #21d873;
+    border-radius: 0px 0px 10px 10px;
+    display: flex; align-items: center;
+}
+.cart{
+    position: relative;
+    right: .1vw;
+}
+
+.price-value{
+    color: white;
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.bd{
+    /* border: 2px solid red; */
+}
+
+.left-sidebar{
+    /* border: 2px solid rebeccapurple; */
+    width: 56.5vw;
+    height: 66vh;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+}
+.car-card{
+    background: white;
+    width: 15vw;
+    height: 17.5vh;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #21d873;
+    flex-direction: column;
+}
+.car-card>img{
+    width: 10vw;
+}
+.bd-red{
+    border-color: red;
+}
+.car-card>p{
+    margin: 0 0 0 0;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+.m-lf{
+margin-left: 18px;
+}
+.m-tp-40{
+margin-top: 40px;
+}
+.d-flex{
+    display: flex;
+}
